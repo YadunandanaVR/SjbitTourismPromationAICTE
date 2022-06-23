@@ -1,0 +1,198 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tourism Promotion</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-white">Tourism promotion means activities and expenditures designed to increase tourism, including but not limited to advertising, publicizing, or otherwise distributing information for the purpose of attracting and welcoming tourists.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/TourismPromoti5" class="text-white">Follow on Twitter</a></li>
+                <li><a href="https://www.instagram.com/tourismpromotionkarnataka/" class="text-white">Like On Instagram</a></li>
+                <li><a href="mailto:tourismpromotionkarnataka@gmail.com" class="text-white">Email Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            <strong>Tourism</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="images/mekedatu/mekedatu1.png" alt="">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Mekedatu</h1>
+            <p>Mekedatu meaning ‘goat's leap’ in Kannada  Mekedatu is a gorgeous rocky place with waterfalls from river Cauvery.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=bySrStj5mM8">Explore More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="images/mekedatu/mekedatu7.png" alt="">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Visit</h1>
+            <p>Mekedatu is at a distance of 4Kms from Sangam. One has to cross the river at Sangam to reach a place where two old buses take them to Mekedatu. One has to pay an entry fee of INR 20 and INR 40 for the bus.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.google.com/maps/place/Mekedatu,+Karnataka/@12.2591179,77.4477768,4283m/data=!3m1!1e3!4m5!3m4!1s0x3baeeebf827dd50f:0x2bfe3f6c8438c13!8m2!3d12.2576017!4d77.4458151?hl=en">Goole Direction</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="images/mekedatu/mekedatu6.png" alt="">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Explore More</h1>
+            <p><a class="btn btn-lg btn-primary" href="https://www.google.com/maps/place/Mekedatu,+Karnataka/@12.2581934,77.4484165,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNDxeBGseqjDRtK8YjReEiPJPwEkMATkZILUei6!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNDxeBGseqjDRtK8YjReEiPJPwEkMATkZILUei6%3Dw160-h120-k-no!7i3968!8i2976!4m5!3m4!1s0x3baeeebf827dd50f:0x2bfe3f6c8438c13!8m2!3d12.2576017!4d77.4458151?hl=en">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="container marketing" style="padding-top:50px; font-size:20px">
+    <h1 style="padding-bottom:10px;">Mekedatu</h1>
+    <p>Mekedatu meaning ‘goat's leap’ in Kannada  Mekedatu is a gorgeous rocky place with waterfalls from river Cauvery. The confluence of rivers Arkavathi and Cauvery can be seen here. This place is located near kanakapura and comes under the rural district of Bangalore. Cauveri river from Shimsa flows further to meet Arkavathi which comes from Ramanagaram side in this Sangam place. Meke means Goat and datu means jump. The river flows within the distance which can be jumped by a goat. Hence the name Mekedatu for this place. Mekedatu is at a distance of 4Kms from Sangam. One has to cross the river at Sangam to reach a place where two old buses take them to Mekedatu. One has to pay an entry fee of INR 20 and INR 40 for the bus. There is a viewpoint nearer to Mekedatu from where visitors can see the entire rocky area. The river water flows inside the rocks at some places and goes deep later. Do not try to go down nearer to river point as it is too dangerous and one may lose his life. The water current is very powerful and comes with a lot of force. The rock formation is just like an art due to the water flow. The rocks are very slippery and are careful while walking on these. Many visitors bring lunch and snacks to have at this point.</p>
+
+    <h5>Story Behind the Name Mekedathu</h5>
+    <p>There’s an age old story amongst the locals that once a herdsman from this area witnessed a goat, which was being chased by a tiger, leap across the gorge from one side to the other. However, the tiger did not make any attempts to cross the gorge and thereby letting the goat escape. Since then this place is popularly been termed by the locals as the Goat’s Leap. There is also some mythological significance to this place(both Sangama and Mekedathu).The ancient story is that the locals believe that the goat which leapt across the Cauvery was Lord Shiva in disguise and the strange holes, which can be seen on both rocky cliffs of the gorge, can only be made by the divine goat.
+
+The best time to visit this place is during monsoons.  The vegetation around the hills is at their greenest best and is a real treat to the eye. In summer season there will be less water and visitors can easily walk inside the river. In rainy season there will be more water with heavy flow. Both the seasons are enjoyable although differently.</p>
+
+
+  </div>
+
+  <div class="container marketing" style="text-align: center; padding-top:50px;">
+    <h1>Gallery</h1>
+    <video width="1300" height="800" controls>
+      <source src="images/mekedatu/video/mekedatu_video.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+
+    <img src="images/mekedatu/mekedatu2.png" width="1300" height="800" style="padding-top:10px;" alt="">
+    <img src="images/mekedatu/mekedatu5.png" width="1300" height="800" style="padding-top:10px;" alt="">
+    <img src="images/mekedatu/mekedatu3.png" width="1300" height="800" style="padding-top:10px;" alt="">
+    <img src="images/mekedatu/mekedatu4.png" width="1300" height="800" style="padding-top:10px;" alt="">
+</main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -1,0 +1,194 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tourism Promotion</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-white">Tourism promotion means activities and expenditures designed to increase tourism, including but not limited to advertising, publicizing, or otherwise distributing information for the purpose of attracting and welcoming tourists.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/TourismPromoti5" class="text-white">Follow on Twitter</a></li>
+                <li><a href="https://www.instagram.com/tourismpromotionkarnataka/" class="text-white">Like On Instagram</a></li>
+                <li><a href="mailto:tourismpromotionkarnataka@gmail.com" class="text-white">Email Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            <strong>Tourism</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="images/kanva/kanva6.png" alt="">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Kanva Reservoir</h1>
+            <p>Kanva Reservoir is a man-made artificial lake of Kanva reservoir formed by the waters of river Kanva it is located approx.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=4zVQhRYbQe8">Explore More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="images/kanva/kanva7.png" alt="">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Visit</h1>
+            <p>Kanva Dam was built in 1946 across the Kanva River for irrigation It is 15 kilometers (9.3 mi) long and covers 776 hectares. situated about 60 km from Bangalore, 10 kilometers from Ramanagaram.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.google.com/maps/place/Kanva+Reservoir/@12.7356066,77.1974087,4538m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bae4cc561adeb13:0xe9c267e0e6ce8639!8m2!3d12.7310213!4d77.2031493">Goole Direction</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="images/kanva/kanva1.png" alt="">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Explore More</h1>
+            <p><a class="btn btn-lg btn-primary" href="https://www.google.com/search?q=kanva+reservoir&rlz=1C1RXQR_enIN1006IN1006&hl=en&biw=1920&bih=975&sxsrf=ALiCzsY_eGxB5vrLTO4ba2no38G5QnW8CQ:1655969897145&tbm=isch&source=iu&ictx=1&vet=1&fir=1LeW-okKy2ABJM%252Cjtw-tspZYDwbDM%252C%252Fm%252F041864j&usg=AI4_-kQT_bH0ksRI8GlZB5kZsXyZigBsSQ&sa=X&ved=2ahUKEwi5nOnLiMP4AhXgTWwGHVncAoQQ_B16BAhsEAE#imgrc=1LeW-okKy2ABJM">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="container marketing" style="padding-top:50px; font-size:20px">
+    <h1 style="padding-bottom:10px;">Kanva Reservoir</h1>
+    <p>Kanva Reservoir is a man-made artificial lake of Kanva reservoir formed by the waters of river Kanva it is located approx. Kanva Dam was built in 1946 across the Kanva River for irrigation It is 15 kilometers (9.3 mi) long and covers 776 hectares. this artificial lake used to be a mere irrigation project but now is a famous tourist attraction which attracts bird watchers and adventure seekers. situated about 60 km from Bangalore, 10 kilometers from Ramanagaram.T he Kanva river (a tributary of the Cauvery river) is named after the sage Kanva, who is believed to have lived in the caves in the mountains and forests around the dam in the time of Ramayana. On one end of the dam, there is a Fisheries Training Center located. Also some 3 km away a temple dedicated to Purushothama Tirtha Gavi has situated nearby the Kanava Reservoir.
+
+You can see a fisheries training and research center at another side of the Kanva Reservoir, The main intention was to make the villagers self-sustaining by way of fish farming. This is an ideal spot for a short picnic. Ensure you carry enough food/snacks. There is nothing but a solitary make-shift “shop-hut” which has basic snacks/water etc.</p>
+
+  </div>
+
+  <div class="container marketing" style="text-align: center; padding-top:50px;">
+    <h1>Gallery</h1>
+    <video width="1300" height="800" controls>
+      <source src="images/kanva/video/kanva_video.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+
+    <img src="images/kanva/kanva2.png" width="1300" height="800" style="padding-top:10px;" alt="">
+    <img src="images/kanva/kanva5.png" width="1300" height="800" style="padding-top:10px;" alt="">
+    <img src="images/kanva/kanva8.jpg" width="1300" height="800" style="padding-top:10px;" alt="">
+    <img src="images/kanva/kanva3.png" width="1300" height="800" style="padding-top:10px;" alt="">
+</main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </body>
+</html>
